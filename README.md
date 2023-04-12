@@ -32,3 +32,18 @@ const myPromise = new Promise ((resolve, reject) => {
         reject ("Promise was rejected");
     }
 });
+
+{Handle a Fulfilled Promise with then}
+myPromise.then(result =>{
+  console.log(result);
+});
+
+{Handle a Rejected Promise with catch}
+myPromise.catch(error =>{
+    console.log(error);
+});
+
+{Using the Test Method}
+let testStr = "";
+let testRegex = / /;
+testRegex.test(testStr);
