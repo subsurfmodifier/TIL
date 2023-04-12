@@ -1,1 +1,34 @@
 # TIL
+if (I want to import something )
+import {add, subtract} from "./math_functions.js";
+
+if(I want to import all the files as some variable name)
+import * as myMathModule from "./math_functions.js";
+
+if (I want to access some function inside that variable)
+myMathModule.add(2,3)
+
+if(I want to export default funtion)
+export default function subtract(x, y) {
+    return x-y;
+}
+
+if (i want to import the default function)
+import subtract from "./dljsl.js";
+without the {}
+
+When the task completes, you either fulfil your promise or fail to do so.
+
+promise has 3 states
+pending
+fufilled
+rejected
+
+if(I want to make a Promise)
+const myPromise = new Promise ((resolve, reject) => {
+    if (condition){
+        resolve ("Promise was fulfilled");
+    } else {
+        reject ("Promise was rejected");
+    }
+});
