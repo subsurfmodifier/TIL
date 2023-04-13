@@ -47,3 +47,12 @@ myPromise.catch(error =>{
 let testStr = "";
 let testRegex = / /;
 testRegex.test(testStr);
+
+{Match Literal Strings}
+regex has to match with the test string for it to be true
+
+{Match a Literal String}
+/dog|cat|fish/;
+
+{Ignore Case While Matching}
+/ignorecase/i;
