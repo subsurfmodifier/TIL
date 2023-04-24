@@ -56,3 +56,8 @@ regex has to match with the test string for it to be true
 
 {Ignore Case While Matching}
 /ignorecase/i;
+
+{Deleting white space}
+string = "    Hello World!     ";
+Regex = /^\s+|\s+$/;
+string.update(Regex, "");
