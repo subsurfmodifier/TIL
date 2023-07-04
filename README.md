@@ -61,3 +61,9 @@ regex has to match with the test string for it to be true
 string = "    Hello World!     ";
 Regex = /^\s+|\s+$/;
 string.update(Regex, "");
+
+1. what is node?
+everything that is on html can be read as node on js
+2. Node List VS Array?
+common: length, numeric value [1]
+difference: live collection/ push() etc.
